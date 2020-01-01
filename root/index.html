@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./scripts/jquery-3.4.1.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    <title>Aknad/Windows</title>
+  </head>
+  <body>
+
+  <header>
+  <div class="container">
+    <h2 style="text-align:center;">Akna üleval paremas nurgas asuvad kolm <span>nuppu</span> – minimeerimis-, suurendamis/vähendamis- ja sulgemisnupp.<br>
+    <span>Klõpsa</span> kolmel nupul, et rohkem teada saada!</h2>
+  </div>
+  </header>
+
+  <section id=clickable>
+    <div class="container">
+      <div id="clickableImg" style="position: relative;">
+        <img src="./images/WindowButtons.png" alt="AknaNupud" style="width:1000px;position: absolute; top:0px;left:0px;">
+        <div class="divButton" id="minimeerimisNupp" onclick="info(this)" style="height:50px;width:60px;position:absolute;left:775px; top:0px;"></div>
+        <div class="divButton" id="suurendamis/vähendamisNupp" onclick="info(this)" style="height:50px;width:60px;position:absolute;left:853px; top:0px;"></div>
+        <div class="divButton" id="sulgemisNupp" onclick="info(this)" style="height:50px;width:60px;position:absolute;left:930px; top:0px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+  <div class="container">
+    <div id="info">
+      <div class="infoBox" id="infoBox"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+  </div>
+</footer>
+
+  </body>
+</html>
